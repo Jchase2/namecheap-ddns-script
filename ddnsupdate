@@ -1,5 +1,4 @@
 #!/bin/sh
 IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
-curl 
-'https://dynamicdns.park-your-domain.com/update?host=@&domain=YOURDOMAIN.TLD&password=YOURPW&ip='$IP
+curl 'https://dynamicdns.park-your-domain.com/update?host=@&domain=YOURDOMAIN.TLD&password=YOURPW&ip='$IP
 
